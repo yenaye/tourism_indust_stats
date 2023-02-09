@@ -1,0 +1,112 @@
+body {
+    font-size: 10pt;
+    padding: 30px;
+    background-color: #f7f8fb;
+}
+.display-flex {
+    display: flex;
+}
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+
+.btn {
+    background-color: #fff;
+    padding: 6px 10px;
+    border: 1px solid #82959e;
+    border-radius: 3px;
+    font-size: 9pt;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn:hover,
+.btn.active {
+    color: #fff;
+    background-color: #82959e;
+    transition: 300ms;
+}
+
+.select {
+    border-color: #82959e;
+    border-radius: 3px;
+    padding: 6px 10px;
+    margin-left: 5px;
+}
+
+.header-container {
+    font-size: 15pt;
+    font-weight: 600;
+}
+.timer {
+    float: right;
+    margin-right: 7px;
+}
+.refresh {
+    float: right;
+    height: 20px;
+    cursor: pointer;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px 25px 20px 25px;
+    margin: 25px 0;
+    box-shadow: 3px 3px 5px 2px #e4e4e4;
+}
+
+.table-container {
+    width: 60%;
+}
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    border-color: #fafafa;
+    border-left-style: none;
+    border-right-style: none;
+    margin-bottom: 15px;
+}
+.table-container table tbody tr:nth-child(odd) {
+    background-color: #f8f8f8;
+}
+.table-container table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+.table-container table th {
+    border-bottom-width: 3px;
+    padding: 11px 20px;
+    border-left-style: none;
+    border-right-style: none;
+}
+.table-container table td {
+    padding: 6px 20px;
+    border-left-style: none;
+    border-right-style: none;
+}
+
+.paging div {
+    display: inline-block;
+    margin: 0 2px;
+    padding: 9px 0;
+    width: 37px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 11pt;
+    border-radius: 49%;
+}
+.paging div:hover,
+.paging div.active {
+    color: #fff;
+    background-color: #82959e;
+    transition: 300ms;
+}
+
+.pie-chart-container {
+    width: 40%;
+}
